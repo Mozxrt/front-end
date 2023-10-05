@@ -1,0 +1,127 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .center{display: flex;
+            flex-wrap: wrap;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 2%;}
+    header{
+        height: 200px;
+        padding: 20px 0;
+    }
+    .logo{width: 40%;
+          text-align:0 ;}
+    
+    .menu{
+        padding-top: 60px;
+        width:60%;
+        text-align: right;
+    }
+    .menu a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+     section.sobre{
+        height: calc(100% - 200px);
+        position:relative ;
+     }
+
+
+     
+     .texto-sobre1{
+        margin-top: 30px;
+
+     }
+     .texto-sobre1 h1{
+        font-size: 50px;
+     }
+     .texto-sobre1 p{
+        margin:20px 0;
+        color: black;
+        font-size:  20px;
+        font-weight: bold;
+        max-width: 800px;
+     }
+     .texto-sobre1 button{
+        border: 0;
+        background-color:  rgb(7, 172, 117);
+        color: white;
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+     }
+     :root {
+
+        --color-natural-0: #0c0c0c;
+        --color-natural-10: #171717;
+        --color-natural-30: #a8a29e;
+        --color-natural-40: #ffffff;
+
+     }
+     * {font-family: sans-serif;
+        margin: 0;
+        padding: 0;    
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    footer {
+            width: 100%;
+            color: var(--color-natural-40);
+    }
+
+    #footer_content {
+
+            background-color: var(--color-natural-10);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 3rem 3.5rem;
+    }
+    #footer_contacts h1 {
+
+            margin-bottom: 0.75rem;
+    }
+    #footer_social_media {
+        display:flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    }
+    #footer_social_media .footer-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.5rem;
+        width: 2.5rem;
+       color: var(--color-natural-40);
+        border-radius: 50%;
+        transition:all 0.3s;
+    }
+    #footer_social_media .footer-link:hover {
+        opacity: 1.8;
+    }
+    
+    #instagram {
+        background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    }
+    #facebook  {
+        background-color: #4267b3;
+    }
+    #whatsapp {
+        background-color: #25d356;
+    }
+    #footer_copyright {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-natural-0);
+        font-size: 0.9rem;
+        padding: 1.5rem;
+        font-weight: 100;
+    }
+    
